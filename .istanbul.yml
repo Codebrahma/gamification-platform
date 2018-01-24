@@ -1,6 +1,6 @@
 verbose: false
 instrumentation:
-  excludes: ['coverage/**', 'index.js']
+  excludes: ['coverage/**', 'index.js', 'cz_config.js']
   include-all-sources: true
 reporting:
     print: summary

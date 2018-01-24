@@ -53,6 +53,16 @@
     "mocha": "3.5.0",
     "nock": "9.0.14",
     "sinon": "3.2.1",
-    "sinon-chai": "2.13.0"
+    "sinon-chai": "2.13.0",
+    "commitizen": "^2.9.6",
+    "cz-customizable": "^5.2.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-customizable"
+    },
+    "cz-customizable": {
+      "config": "cz_config.js"
+    }
   }
 }
