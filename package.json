@@ -19,7 +19,9 @@
     "lint": "eslint *.js server test config bin && echo Lint Passed ❤",
     "test": "NODE_ENV=test istanbul --include-all-sources cover _mocha -- -u bdd $(find test -name '*.js') && istanbul check-coverage && echo All tests passed 👍",
     "precommit": "yarn lint && yarn test",
-    "report-coverage": "codeclimate-test-reporter < ./coverage/lcov.info"
+    "report-coverage": "codeclimate-test-reporter < ./coverage/lcov.info",
+    "contributors:add": "all-contributors add",
+    "contributors:generate": "all-contributors generate"
   },
   "dependencies": {
     "axios": "0.16.2",
@@ -41,8 +43,11 @@
     "vision": "4.1.1"
   },
   "devDependencies": {
+    "all-contributors-cli": "false4.10.1",
     "chai": "4.1.1",
     "codeclimate-test-reporter": "0.5.0",
+    "commitizen": "^2.9.6",
+    "cz-customizable": "^5.2.0",
     "eslint": "^4.15.0",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-plugin-import": "^2.8.0",
@@ -56,9 +61,7 @@
     "mocha": "3.5.0",
     "nock": "9.0.14",
     "sinon": "3.2.1",
-    "sinon-chai": "2.13.0",
-    "commitizen": "^2.9.6",
-    "cz-customizable": "^5.2.0"
+    "sinon-chai": "2.13.0"
   },
   "config": {
     "commitizen": {

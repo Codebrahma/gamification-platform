@@ -1,0 +1,21 @@
+{
+  "projectName": "gamification-platform-backend",
+  "projectOwner": "codebrahma",
+  "files": [
+    "CONTRIBUTORS.md"
+  ],
+  "imageSize": 100,
+  "contributorsPerLine": 6,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "Arjun-sna",
+      "name": "Arjun",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/9337254?v=4",
+      "profile": "https://github.com/Arjun-sna",
+      "contributions": [
+        "doc"
+      ]
+    }
+  ]
+}
