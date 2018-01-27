@@ -51,7 +51,6 @@ if (config.util.getEnv('NODE_ENV') === DEVELOPMENT) {
 			},
 		},
 	});
-}	
-
+}
 
 module.exports = plugins;
