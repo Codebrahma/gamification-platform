@@ -1,5 +1,5 @@
 # Gamification Platform Backend 
-
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/) ![TravisCI](https://travis-ci.org/Codebrahma/gamification-platform-backend.svg?branch=dev) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/Codebrahma/gamification-platform-backend/wiki/How-to-Contribute)  [![Code of Conduct](https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat-square)](https://github.com/Codebrahma/gamification-platform-backend/wiki/Coding-Guidelines)
 ## About the project
 
 This is a standalone backend for Gamification platform built by Codebrahma based on Node (Hapi JS) and GraphQL.
