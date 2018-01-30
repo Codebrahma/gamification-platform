@@ -17,7 +17,8 @@
   "scripts": {
     "start": "node index.js",
     "lint": "eslint *.js server test config bin && echo Lint Passed ❤",
-    "test": "NODE_ENV=test istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && istanbul check-coverage",
+    "test": "NODE_ENV=test istanbul --include-all-sources cover _mocha -- -u bdd $(find test -name '*.js') && istanbul check-coverage && echo All tests passed 👍",
+    "test:coverage": "NODE_ENV=test istanbul cover _mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | coveralls && istanbul check-coverage",
     "report-coverage": "codeclimate-test-reporter < ./coverage/lcov.info",
     "contributors:add": "all-contributors add",
     "contributors:generate": "all-contributors generate",

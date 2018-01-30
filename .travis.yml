@@ -7,4 +7,4 @@ cache:
 git:
   depth: 3
 script:
-  - yarn lint && yarn test
+  - yarn lint && yarn run test:coverage
